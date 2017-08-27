@@ -167,3 +167,36 @@ main div#ending_message {
     border-top: 0;
   }
 }
+
+/* Additions */
+
+div.shoved {
+  padding-left: 1rem;
+}
+
+#taglist {
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+}
+
+#taglist ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#taglist li {
+  display: inline;
+  background-color: #dfe2ee;
+  border-radius: .2rem;
+  margin-right: .4rem;
+  padding-left: .4rem;
+  padding-right: .4rem;
+}
+
+span.tag {
+  background-color: #dfe2ee;
+  border-radius: .2rem;
+  padding-left: .4rem;
+  padding-right: .4rem;
+}
