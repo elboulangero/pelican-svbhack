@@ -170,6 +170,10 @@ main div#ending_message {
 
 /* Additions */
 
+h1 {
+  text-transform: uppercase;
+}
+
 div.shoved {
   padding-left: 1rem;
 }
