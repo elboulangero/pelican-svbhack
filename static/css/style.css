@@ -191,7 +191,7 @@ div.shoved {
 
 #taglist li {
   display: inline;
-  background-color: #dfe2ee;
+  background-color: #dbe2ff;
   border-radius: .2rem;
   margin-right: .4rem;
   padding-left: .4rem;
@@ -199,7 +199,7 @@ div.shoved {
 }
 
 span.tag {
-  background-color: #dfe2ee;
+  background-color: #dbe2ff;
   border-radius: .2rem;
   padding-left: .4rem;
   padding-right: .4rem;
