@@ -64,19 +64,6 @@
   </aside>
 
   <main>
-    <header>
-      <p>
-      <a href="{{ SITEURL }}">Index</a> &brvbar; <a href="{{ SITEURL }}/archives.html">Archives</a>
-      {% if FEED_ALL_ATOM %}
-      &brvbar; <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}">Atom</a>
-      {% endif %}
-      {% if FEED_ALL_RSS %}
-      &brvbar; <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}">RSS</a>
-      {% endif %}
-      {% block header %}
-      {% endblock header %}
-      </p>
-    </header>
 
     {% block content %}
     {% endblock %}
